@@ -30,7 +30,7 @@ A simple and interactive web application where users can select any color or ran
    ```
 2. Navigate to the project directory:
    ```bash
-   cd color-picker-random-shifter
+   cd Bg-color-changer
    ```
 3. Open `index.html` in your browser:
    ```bash
