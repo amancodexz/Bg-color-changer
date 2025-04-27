@@ -1,0 +1,65 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center; /* This aligns content vertically */
+    height: 100vh;       /* Full height of the viewport */
+    margin: 0;           /* Remove default margin */
+}
+.main {
+    background-color: #20394eec;
+    height: 55vh;
+    width: 60vw;
+    color: aliceblue;
+    border-radius: 20px;
+    margin: 0%;
+
+    border: 2px solid  rgb(0, 0, 0);
+    
+  display: flex;            /* Add this */
+  flex-direction: column;   /* Stack children vertically */
+  align-items: center;      /* Center horizontally */
+  justify-content: center;  /* Center vertically */
+} 
+
+.textarea {
+    margin: auto;
+    width: 54vw;
+    height: 30vh;
+    background-color: rgba(240, 248, 255, 0.647);
+    border-radius: 20px;
+
+    display: flex;            /* Add this */
+    flex-direction: column;   /* Stack children vertically */
+    align-items: center;      /* Center horizontally */
+    justify-content: center;  /* Center vertically */
+    font-size:xx-large;
+    font-weight: bold;
+
+}
+
+.btn{
+    background-color: aliceblue;
+    width: 18vw;
+    height: 30px;
+    border-radius: 20px;
+    margin: auto;
+    font-weight: bold;
+}
+
+#colorbox {
+    width: 54vw;
+    height: 30vh;
+    border-radius: 25px;
+    border-color: aliceblue;
+    border-width: 10px;
+    margin: auto;
+}
+
+#btn {
+    background-color: rgba(240, 248, 255, 0.915);
+    border-radius: 20px;
+    height: 400px;
+    width: 18vw;
+    margin: 10px;
+}
+
